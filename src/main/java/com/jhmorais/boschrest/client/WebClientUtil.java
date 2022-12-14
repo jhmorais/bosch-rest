@@ -1,11 +1,13 @@
-package io.reflectoring.springwebflux.client;
+package com.jhmorais.boschrest.client;
 
-import io.reflectoring.springwebflux.model.Subscription;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.client.WebClient;
+
+import com.jhmorais.boschrest.model.Subscription;
+
 import reactor.core.publisher.Mono;
 import reactor.util.retry.Retry;
 

@@ -1,13 +1,15 @@
-package io.reflectoring.springwebflux.handler;
+package com.jhmorais.boschrest.handler;
 
-import io.reflectoring.springwebflux.model.Subscription;
-import io.reflectoring.springwebflux.service.SubscriptionService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.server.ServerRequest;
 import org.springframework.web.reactive.function.server.ServerResponse;
+
+import com.jhmorais.boschrest.model.Subscription;
+import com.jhmorais.boschrest.service.SubscriptionService;
+
 import reactor.core.publisher.Mono;
 
 @Component

@@ -1,12 +1,14 @@
-package io.reflectoring.springwebflux.controller;
+package com.jhmorais.boschrest.controller;
 
-import io.reflectoring.springwebflux.model.Subscription;
-import io.reflectoring.springwebflux.service.SubscriptionService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import com.jhmorais.boschrest.model.Subscription;
+import com.jhmorais.boschrest.service.SubscriptionService;
+
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 import reactor.util.function.Tuple2;

@@ -1,11 +1,12 @@
-package io.reflectoring.springwebflux.config;
+package com.jhmorais.boschrest.config;
 
-import io.reflectoring.springwebflux.handler.SubscriptionHandler;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.MediaType;
 import org.springframework.web.reactive.function.server.RouterFunction;
 import org.springframework.web.reactive.function.server.ServerResponse;
+
+import com.jhmorais.boschrest.handler.SubscriptionHandler;
 
 import static org.springframework.web.reactive.function.server.RequestPredicates.*;
 import static org.springframework.web.reactive.function.server.RouterFunctions.route;

@@ -1,9 +1,8 @@
-package io.reflectoring.springwebflux.model;
+package com.jhmorais.boschrest.model;
 
 import lombok.*;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
-import org.springframework.data.mongodb.core.mapping.Field;
 
 @ToString
 @EqualsAndHashCode(of = {"id","event","targetUrl", "filter"})

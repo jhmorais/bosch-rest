@@ -8,8 +8,8 @@
 		<version>2.6.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>io.reflectoring</groupId>
-	<artifactId>spring-webflux</artifactId>
+	<groupId>com.jhmorais</groupId>
+	<artifactId>bosch-rest</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>bosch-rest</name>
 	<description></description>

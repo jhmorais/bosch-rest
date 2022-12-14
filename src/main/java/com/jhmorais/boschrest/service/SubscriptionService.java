@@ -1,7 +1,5 @@
-package io.reflectoring.springwebflux.service;
+package com.jhmorais.boschrest.service;
 
-import io.reflectoring.springwebflux.model.Subscription;
-import io.reflectoring.springwebflux.repository.SubscriptionRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.mongodb.core.ReactiveMongoTemplate;
@@ -9,6 +7,10 @@ import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
+import com.jhmorais.boschrest.model.Subscription;
+import com.jhmorais.boschrest.repository.SubscriptionRepository;
+
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
